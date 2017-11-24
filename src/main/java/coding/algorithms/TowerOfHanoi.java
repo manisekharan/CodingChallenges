@@ -1,14 +1,16 @@
 package coding.algorithms;
 
 // Java recursive program to solve tower of hanoi puzzle
-
 public class TowerOfHanoi
 {
-    static int count;
-    // Java recursive function to solve tower of hanoi puzzle
-    static void towerOfHanoi(int n, char source_pole, char destination_pole, char helper_pole)
+    public static void main(String args[])
     {
-        count++;
+        int numOfDisks = 2;
+        new TowerOfHanoi().towerOfHanoi(numOfDisks, 'A', 'B', 'C');
+    }
+
+    void towerOfHanoi(int n, char source_pole, char destination_pole, char helper_pole)
+    {
         if (n == 1)
         {
             System.out.println("Move disk 1 from pole " +  source_pole + " to pole " + destination_pole);
@@ -17,14 +19,6 @@ public class TowerOfHanoi
         towerOfHanoi(n-1, source_pole, helper_pole, destination_pole);
         System.out.println("Move disk " + n + " from pole " +  source_pole + " to pole " + destination_pole);
         towerOfHanoi(n-1, helper_pole, destination_pole, source_pole);
-    }
-
-    //  Driver method
-    public static void main(String args[])
-    {
-        int n = 2; // Number of disks
-        towerOfHanoi(n, 'A', 'B', 'C');  // A, B and C are names of rods
-        System.out.println("Number of times called : "+count);
     }
 }
 
