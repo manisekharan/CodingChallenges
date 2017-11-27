@@ -1,4 +1,4 @@
-package coding.algorithms;
+package general;
 
 public class TowerOfHanoi
 {
