@@ -1,4 +1,4 @@
-package BlockingQueueDemo;
+package general.BlockingQueueDemo;
 
 public class Message {
     private String msg;
