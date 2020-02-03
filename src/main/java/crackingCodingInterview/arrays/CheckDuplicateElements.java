@@ -1,5 +1,7 @@
 package crackingCodingInterview.arrays;
 
+import java.util.*;
+
 public class CheckDuplicateElements {
 
     public boolean isUnique(int[] arrays){
@@ -16,6 +18,7 @@ public class CheckDuplicateElements {
 
     public static void main(String[] args) {
         int[] arrays = new int[]{7,6,1,3,5,2,7};
+        System.out.println(Arrays.toString(arrays));
         System.out.println("Is Unique : "+new CheckDuplicateElements().isUnique(arrays));
     }
 }
