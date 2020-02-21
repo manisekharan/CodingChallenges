@@ -46,4 +46,20 @@ public class StringReverse {
         return reverseRecursively(str.substring(1)) + str.charAt(0);
 
     }
-}
+
+    public static String reverseBySwapping(String str) {
+
+        char[] charStr = str.toCharArray();
+        int len = str.length();
+        char temp;
+        for (int i = 0; i < len / 2; i++) {
+            temp = charStr[i];
+            charStr[i] = charStr[len - i - 1];
+            charStr[len - i - 1] = temp;
+        }
+        return new String(charStr);
+    }
+
+    }
+
+
