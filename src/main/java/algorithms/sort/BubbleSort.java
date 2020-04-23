@@ -6,8 +6,8 @@ public class BubbleSort {
     public static void main(String[] args) {
         int[] array = {5, 1, 4,0,2,-1};
         System.out.println("Giving unsorted Array : "+ Arrays.toString(array));
-        //bubbleSort_for(array);
-        bubbleSort_while(array);
+        bubbleSort_for(array);
+        //bubbleSort_while(array);
         //bubbleSort_rec(array, array.length);
     }
 
