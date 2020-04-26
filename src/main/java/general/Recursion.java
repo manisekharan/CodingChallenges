@@ -1,11 +1,11 @@
-package coding.general;
+package general;
 
 public class Recursion {
     public static void main(String a[]){
-        int sum = add(4);
+        int sum = add(5);
         System.out.println("Sum : "+sum);
-        int fact = factorial(4);
-        System.out.println("Factorial : "+fact);
+        //int fact = factorial(4);
+        //System.out.println("Factorial : "+fact);
     }
 
     private static int add(int n) {

@@ -2,6 +2,33 @@ package algorithms.sort;
 
 import java.util.*;
 
+/*
+
+Complexity Analysis of Bubble Sort
+
+In Bubble Sort, n-1 comparisons will be done in the 1st pass, n-2 in 2nd pass, n-3 in 3rd pass and so on. So the total number of comparisons will be,
+
+
+(n-1) + (n-2) + (n-3) + ..... + 3 + 2 + 1
+Sum = n(n-1)/2
+i.e O(n2)
+
+
+Time Complexity
+Best: O(n)
+Average: O(n^2)
+Worst: O(n^2)
+
+Space Complexity
+O(1)
+
+Best-case performance : O(n) comparisons, O(1) swaps
+Average performance : O(n^2) comparisons, O(n^2) swaps
+Worst-case performance :  O(n^2) comparisons, O(n^2) swaps
+
+Worst-case space complexity : O(n) total, O(1) auxiliary
+*/
+
 public class BubbleSort {
     public static void main(String[] args) {
         int[] array = {5, 1, 4,0,2,-1};

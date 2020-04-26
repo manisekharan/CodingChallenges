@@ -1,13 +1,26 @@
 package algorithms.sort;
 /*
+
+Complexity Analysis of Selection Sort
+Selection Sort requires two nested for loops to complete itself,
+one for loop is in the function selectionSort, and inside the first loop we are making a call to another function minIndex,
+which has the second(inner) for loop.
+
 Time Complexity
-Best: ?(n^2)
-Average: ?(n^2)
+Best: O(n^2)
+Average: O(n^2)
 Worst: O(n^2)
 
 Space Complexity
 O(1)
- */
+
+Best-case performance : O(n^2) comparisons, O(n) swaps
+Average performance : O(n^2) comparisons, O(n) swaps
+Worst-case performance :  O(n^2) comparisons, O(n) swaps
+
+Worst-case space complexity : O(1) auxiliary
+
+*/
 
 import java.util.*;
 
