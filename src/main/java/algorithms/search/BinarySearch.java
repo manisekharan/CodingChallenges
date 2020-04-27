@@ -6,8 +6,8 @@ public class BinarySearch {
         int target = 4;
         int found = binarySearch(sorted, target);
         System.out.println("Regular : "+found);
-        found = binarySearchRecursion(sorted, target, sorted.length-1, 0);
-        System.out.println("Recursive : "+found);
+        //found = binarySearchRecursion(sorted, target, sorted.length-1, 0);
+        //System.out.println("Recursive : "+found);
     }
 
     static int binarySearch(int[] sorted, int target) {

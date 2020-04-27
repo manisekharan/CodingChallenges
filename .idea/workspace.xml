@@ -2,15 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="834fa8ac-310f-489f-ab49-e8500e93c84b" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/algorithms/sort/QuickSort.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/algorithms/search/BinarySearch.java" afterPath="$PROJECT_DIR$/src/main/java/algorithms/search/BinarySearch.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/algorithms/sort/BubbleSort.java" afterPath="$PROJECT_DIR$/src/main/java/algorithms/sort/BubbleSort.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/algorithms/sort/InsertionSort.java" afterPath="$PROJECT_DIR$/src/main/java/algorithms/sort/InsertionSort.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/algorithms/sort/MergeSort.java" afterPath="$PROJECT_DIR$/src/main/java/algorithms/sort/MergeSort.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/algorithms/sort/MergeSort2.java" afterPath="$PROJECT_DIR$/src/main/java/algorithms/sort/MergeSort2.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/algorithms/sort/SelectionSort.java" afterPath="$PROJECT_DIR$/src/main/java/algorithms/sort/SelectionSort.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/general/Recursion.java" afterPath="$PROJECT_DIR$/src/main/java/general/Recursion.java" />
     </list>
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -53,8 +45,8 @@
       <file leaf-file-name="BinarySearch.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/algorithms/search/BinarySearch.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="225">
-              <caret line="17" column="33" lean-forward="true" selection-start-line="17" selection-start-column="33" selection-end-line="17" selection-end-column="33" />
+            <state relative-caret-position="135">
+              <caret line="9" column="10" lean-forward="false" selection-start-line="9" selection-start-column="10" selection-end-line="9" selection-end-column="10" />
               <folding />
             </state>
           </provider>
@@ -947,8 +939,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/algorithms/search/BinarySearch.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="17" column="33" lean-forward="true" selection-start-line="17" selection-start-column="33" selection-end-line="17" selection-end-column="33" />
+        <state relative-caret-position="135">
+          <caret line="9" column="10" lean-forward="false" selection-start-line="9" selection-start-column="10" selection-end-line="9" selection-end-column="10" />
           <folding />
         </state>
       </provider>
