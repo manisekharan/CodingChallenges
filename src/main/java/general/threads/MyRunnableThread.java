@@ -1,7 +1,4 @@
-package threads;
-
-
-
+package general.threads;
 
 public class MyRunnableThread {
 	public static void main(String a[]) {

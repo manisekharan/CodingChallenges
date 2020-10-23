@@ -19,6 +19,7 @@ public class ArrayBlockingQueueExample {
                     System.out.println(Thread.currentThread().getName());
                     try {
                         sharedQueue.put("DATA");
+                        //sharedQueue.stream().forEach(s -> System.out.print(s+"\t "));
                         Thread.sleep(500);
                     } catch (InterruptedException e) {
                         e.printStackTrace();
@@ -31,7 +32,7 @@ public class ArrayBlockingQueueExample {
             @Override
             public void run() {
                 while (true) {
-                    System.out.print(Thread.currentThread().getName() + "=> ");
+                    System.out.println(Thread.currentThread().getName() + "=> ");
                     try {
                         System.out.println(sharedQueue.take());
                         Thread.sleep(1000);

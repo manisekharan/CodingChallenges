@@ -1,4 +1,4 @@
-package threads;
+package general.threads;
 
 public class HelloThread extends Thread {
 
